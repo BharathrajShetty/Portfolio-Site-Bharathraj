@@ -229,6 +229,41 @@ a.nav-link{
 }
 
 /*──────────────────
+      Skills
+──────────────────*/
+
+#skills{
+	margin: auto;
+	padding-bottom: 20px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--main-fonts-color);
+}
+	
+#skills p{
+	padding:10px;
+	text-align:center;
+	font-size:1.7rem;
+	font-family: var(--main-font-family);
+}
+
+.skill-head{
+	display: inline;
+	padding:10px;
+	text-align:center;
+	font-size:1.3rem;
+	font-family: var(--main-font-family);
+}
+
+.skill-item{
+	font-size:1rem;
+}
+
+
+/*──────────────────
       Contact
 ──────────────────*/
 
@@ -364,7 +399,7 @@ hr {
 
 @media only screen and (max-width: 500px) {
 
-	#home, #projects, #contact{
+	#home, #projects, #contact #skills{
         overflow-x: hidden;
 	}
 	header{
